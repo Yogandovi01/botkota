@@ -1,0 +1,96 @@
+<?php
+2
+$biru="\033[1;34m";
+3
+$turkis="\033[1;36m";
+4
+$ijo="\033[92m";
+5
+$putih="\033[1;37m";
+6
+$pink="\033[1;35m";
+7
+$red="\033[1;31m";
+8
+$kuning="\033[1;33m";
+9
+​
+10
+//flag
+11
+print"$ijo
+12
+===================================================\n$red
+13
+=       Samehikari Music - Bugsar Chanel          =$putih
+14
+===================================================
+15
+               $red  !!!! WARNING !!!!$pink
+16
+              $red ==> KOTA Bot Ilegal <==$pink
+17
+                $kuning bisa kena $red Banned$pink
+18
+              $pink pergunakan dengan bijak$ijo
+19
+                 $biru Te$turkis ri$ijo ma$pink ka$kuning sih\n$ijo
+20
+===================================================\n$biru";
+21
+function id($token,$jumlah,$wait) {
+22
+  $x = 0; 
+23
+  while($x < $jumlah) {
+24
+​
+25
+  $rand   = rand(1,99999);
+26
+    $ch   = curl_init();
+27
+  curl_setopt($ch, CURLOPT_URL, "https://api.9jta.com/Content/Content/read?member_token='.$token.'&content_id=$rand&lang=indonesian&device_id=$rand");
+28
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+29
+  curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
+30
+  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 1);
+31
+    $result = curl_exec($ch);
+32
+    curl_close ($ch);
+33
+  echo $result."\n";
+34
+    sleep($wait);
+35
+    $x++;
+36
+    flush();
+37
+  } 
+38
+}  
+39
+​
+40
+echo "Token ?\nInput : ";
+41
+$token = trim(fgets(STDIN));
+42
+echo "Jumlah ?\nInput : ";
+43
+$jumlah = trim(fgets(STDIN));
+44
+echo "Jeda ?(ex:0)\nInput : ";
+45
+$wait = trim(fgets(STDIN));
+46
+$submit = id($token,$jumlah,$wait);
+47
+print $submit;
+48
+?>
+49
