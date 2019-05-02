@@ -28,4 +28,4 @@ Cara menggunakan bot tuyul Kota.
     - gold.php  : Untuk nuyul Koin Emas
     - diamond.php : Untuk nuyul diamond (Limit 20 Diamond / hari)
     
-  <b>Cara Mendapatkan Akses Tokey / Key Token</b> <a href="http://bit.ly/getTokenKota">Klik disini</a>
+  <b>Video Cara Mendapatkan Akses Tokey / Key Token dan Nuyul </b> <a href="http://bit.ly/getTokenKota">Klik disini</a>
