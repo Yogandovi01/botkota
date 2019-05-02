@@ -4,10 +4,10 @@ Cara menggunakan bot tuyul Kota.
 
 1. Pertama, Install Termux kemudian lakukan konfigurasi dengan perintah dibawah.
 
-        pkg update && pkg upgrade <br/>
-        pkg install php <br/>
-        pkg install git <br/>
-        pkg install nano <br/>
+        pkg update && pkg upgrade
+        pkg install php
+        pkg install git
+        pkg install nano
 
 2. Download script bot dari github dan tunggu sampai selesai.
 
@@ -15,12 +15,12 @@ Cara menggunakan bot tuyul Kota.
 
 3. Masuk ke directory botkota lalu jalankan bot yang di inginkan.
 
-        cd botkota <br/>
-        php bot.php </br>
+        cd botkota
+        php bot.php
 
-        kemudian masukan <b>Token Key</b>. Cara mendapatkannya cek dibawah. <br/>
-        Masukan jumlah nuyul, <i>contoh 100</i> <br/>
-        Masukan kecepatan nuyul perdetik, <i>Bisa di setting 0</i> <br/>
+        kemudian masukan Token Key. Cara mendapatkannya cek dibawah.
+        Masukan jumlah nuyul, contoh 100
+        Masukan kecepatan nuyul perdetik, Bisa di setting 0
         kemudian klik enter dan bot nuyul akan berjalan.
     
     Penjelasan masing-masing bot.
